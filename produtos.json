@@ -1,0 +1,47 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Mini Motorzinho 5000 Arduino 3v - 6v Dc",
+        "valor": 16.90,
+        "promocao": true,
+        "valorPromo": 15.22,
+        "imagem": "motor.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Cabo Adaptador Alimentação Arduino Bateria 9v Saída P4",
+        "valor": 30.00,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "cabo.jpg"
+      },
+      {
+        "id": 3,
+        "nome": "Kit Iniciante De Componentes Compatível Com Arduino",
+        "valor": 199.98,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "arduino.jpg"
+      },
+      {
+        "id": 4,
+        "nome": "Pilhas",
+        "valor": 65.00,
+        "promocao": true,
+        "valorPromo": 52.90,
+        "imagem": "pilhas.jpg"
+      },
+      {
+        "id": 5,
+        "nome": "Controlador de Velocidade",
+        "valor": 46.50,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "controlador.jpg"
+      }
+    ],
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ]
+  }

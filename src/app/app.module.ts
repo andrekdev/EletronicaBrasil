@@ -7,6 +7,10 @@ import { SobreComponent } from './page/sobre/sobre.component';
 import { MenuComponent } from './navegacao/menu/menu.component';
 import { FooterComponent } from './navegacao/footer/footer.component';
 import { ConteudoComponent } from './navegacao/conteudo/conteudo.component';
+import { APP_BASE_HREF } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { rootRouterConfig } from './app.routes';
+import { ProdutosComponent } from './page/produtos/produtos.component';
 
 @NgModule({
   declarations: [
@@ -14,13 +18,19 @@ import { ConteudoComponent } from './navegacao/conteudo/conteudo.component';
     SobreComponent,
     MenuComponent,
     FooterComponent,
-    ConteudoComponent
+    ConteudoComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    [RouterModule.forRoot(rootRouterConfig, { useHash: false})]
+
   ],
-  providers: [],
+  providers: [
+    {provide: APP_BASE_HREF, useValue: '/u'}
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

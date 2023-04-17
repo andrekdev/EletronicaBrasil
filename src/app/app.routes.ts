@@ -1,7 +1,7 @@
 import { Routes } from "@angular/router";
 import { ConteudoComponent } from "./navegacao/conteudo/conteudo.component";
 import { SobreComponent } from "./page/sobre/sobre.component";
-import { ProdutosComponent } from "./page/produtos/produtos.component";
+import { ProdutosComponent } from "./page/produtos/lista-produtos/produtos.component";
 
 export const rootRouterConfig: Routes = [  
       { path: '', redirectTo: '/inicio', pathMatch: 'full'},
